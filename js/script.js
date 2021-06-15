@@ -42,11 +42,11 @@
 
 //  stampo la bici con peso minore
 
- var pesoMin = Bici[0]
+ var pesoMin = Bici[0];
 
  for( var i = 1; i < Bici.length; i++){
      if(Bici[i].peso < pesoMin.peso){
-         pesoMin = Bici[i]
+         pesoMin = Bici[i];
      }
  }
- console.log(pesoMin)
+ console.log(pesoMin);
